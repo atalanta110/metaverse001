@@ -1,0 +1,32 @@
+.checkboxRoot {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  border-radius: 2px;
+  min-width: 14px;
+  max-width: 14px;
+  min-height: 14px;
+  max-height: 14px;
+  background: #fff;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.activeCheckbox {
+  min-width: 10px;
+  max-width: 10px;
+  min-height: 10px;
+  max-height: 10px;
+  background: #cbfa34;
+  border-radius: 2px;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+}

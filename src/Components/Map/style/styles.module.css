@@ -1,0 +1,12 @@
+.mapContainer {
+  height: 100%;
+  width: calc(100% - 92px);
+  margin-left: 92px;
+}
+
+@media screen and (max-width: 600px) {
+  .mapContainer {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

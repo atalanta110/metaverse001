@@ -1,0 +1,70 @@
+.rootMiniMap {
+  display: flex;
+  align-items: flex-start;
+  height: calc(100vh - 71px);
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  float: right;
+  z-index: 2;
+}
+.box {
+  border-radius: 15px;
+}
+.buttonIcon {
+  width: 52px;
+  height: 46px;
+  border-radius: 12px;
+  background: #262626;
+  transition: all 0.35s;
+}
+.activeButtonIcon {
+  background: #cbfa34;
+}
+.activeButtonIcon * {
+  fill: black;
+}
+.zoomBox {
+  background: #3f3f3f;
+  border-radius: 11px;
+  height: 96px;
+  border: 3px solid black;
+  margin-top: 6px;
+}
+.btnBox > :nth-child(1) {
+  margin-bottom: 6px;
+}
+.zoomBox > :nth-child(1) {
+  border-bottom: 3px solid black;
+}
+.zoomBtn {
+  width: 48px;
+  height: 48px;
+  font-size: 26px;
+  padding-bottom: 5px;
+  user-select: none;
+}
+.drawerRightBox {
+  background: #3f3f3f;
+  height: 100%;
+  overflow: auto;
+}
+.filterWrapper {
+  width: 213px;
+  padding: 20px;
+}
+
+.filterWrapper > div {
+  padding: 10px 0 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: grid;
+  gap: 6px;
+}
+.coordinatesBox input {
+  max-width: 65px;
+  text-align: center;
+}
+.coordinatesBox > :nth-child(1) {
+  margin-right: 12px;
+}

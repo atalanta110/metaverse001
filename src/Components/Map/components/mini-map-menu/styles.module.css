@@ -1,0 +1,32 @@
+.root {
+  border-radius: 0px 0px 15px 14px;
+  background: #cbfa34;
+  color: black;
+  position: relative;
+}
+.dropDown {
+  position: absolute;
+  top: 80px;
+  right: -13px;
+  background: linear-gradient(#6d8f44 0%, #68aed0 100%);
+  border-radius: 8px;
+  padding: 13px;
+  width: 290px;
+  padding-top: 0px;
+  z-index: 1;
+}
+.filters {
+  padding: 5px 15px;
+  background: #3d3b3c;
+}
+.filters > div {
+  display: grid;
+  gap: 9px;
+  padding: 13px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.filters > div > h4 {
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,13 @@
+.inputRoot {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 108.9%;
+  padding: 7px;
+  max-height: 29px;
+  background: rgba(255, 255, 255, 0.12);
+}
+.inputRoot::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  height: 29px;
+  border-radius: 2px;
+}

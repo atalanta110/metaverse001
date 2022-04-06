@@ -1,0 +1,7 @@
+.text {
+  /* overflow: auto;
+  max-height: 160px; */
+}
+.text span {
+  width: 100%;
+}

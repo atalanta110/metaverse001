@@ -1,0 +1,14 @@
+.root_pagination {
+}
+.root_pagination button {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+.root_pagination * {
+  color: white;
+}
+.root_pagination :global(.Mui-selected) {
+  background: #3f3f3f !important;
+}

@@ -1,0 +1,43 @@
+.sliderWrapper {
+  width: 36px;
+  height: 279px;
+  background: #1e1e1e;
+  border-radius: 6px;
+  padding: 4px;
+}
+.sliderWrapper :global(.rc-slider-vertical .rc-slider-step) {
+  background-color: #1e1e1e !important;
+}
+.sliderWrapper :global(.rc-slider-handle) {
+  width: 30px;
+  height: 18px;
+  background: #cbfa34;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-left: -13px;
+}
+
+.sliderWrapper :global(.zoom-bar-box) {
+  height: 219px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sliderWrapper :global(.zoom-out-btn) {
+  width: 30px;
+  height: 32px;
+  background: #cbfa34;
+  border-radius: 0px 0px 4px 4px;
+  font-size: 23px;
+  font-weight: bolder;
+  padding-bottom: 5px;
+  line-height: 10px;
+}
+.sliderWrapper :global(.zoom-in-btn) {
+  width: 30px;
+  height: 32px;
+  background: #cbfa34;
+  border-radius: 4px 4px 0px 0px;
+  font-size: 23px;
+  font-weight: bolder;
+  line-height: 10px;
+}

@@ -1,0 +1,7 @@
+.root {
+  min-width: 218px;
+  /* min-height: 218px; */
+  border-radius: 13px 13px 0px 0px;
+  background-color: black;
+  overflow: hidden;
+}

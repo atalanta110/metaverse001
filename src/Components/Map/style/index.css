@@ -1,0 +1,15 @@
+.img-fit {
+  object-fit: cover;
+  object-position: center;
+}
+.img-fill {
+  object-fit: fill;
+  object-position: center;
+}
+.img-scale-down {
+  object-fit: scale-down;
+  object-position: center;
+}
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  background: linear-gradient(#cbfa34 0%, #66acd4 100%);
+}
